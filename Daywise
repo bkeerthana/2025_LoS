@@ -9,6 +9,7 @@ Components and its function
             - Shell 
             - File system
             - System Call 
+
 Kernel Types 
             - Monolithic 
             - Microlithic 
@@ -17,7 +18,6 @@ Devices with OS Vs Without OS
             - Interaction 
             - Storage 
             - Application 
-
 
 Functions of OS 
             - Abstraction 
@@ -33,9 +33,14 @@ Theory Homework : usecase
 ------------------------------------------------------------------------------------------------
 Next ...... 
 
-Multiplex 
-Isolation 
-Security 
+Mode 
+     - Kernel 
+     - User
+
+Functions 
+     - Multiplex 
+     - Isolation 
+     - Security 
 
 BIOS 
 
