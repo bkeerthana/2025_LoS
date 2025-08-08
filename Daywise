@@ -1,0 +1,43 @@
+Day-1:
+Course Outline 
+How scripting is used in various cybersecurity applications 
+
+Operating System 
+
+Components and its function
+            - Kernel 
+            - Shell 
+            - File system
+            - System Call 
+Kernel Types 
+            - Monolithic 
+            - Microlithic 
+
+Devices with OS Vs Without OS 
+            - Interaction 
+            - Storage 
+            - Application 
+
+
+Functions of OS 
+            - Abstraction 
+
+CPU                --- Process Management 
+RAM                --- Memory Management 
+Storage Device     --- File System 
+NIC,...            --- Socket and Network Stack 
+Explore other part of H/W and their abstraction 
+
+Theory Homework : usecase 
+
+------------------------------------------------------------------------------------------------
+Next ...... 
+
+Multiplex 
+Isolation 
+Security 
+
+BIOS 
+
+
+
