@@ -28,19 +28,28 @@ Storage Device     --- File System
 NIC,...            --- Socket and Network Stack 
 Explore other part of H/W and their abstraction 
 
-Theory Homework : usecase 
+Theory Homework: usecase 
 
 ------------------------------------------------------------------------------------------------
-Next ...... 
+Day-2:
 
 Mode 
      - Kernel 
      - User
 
-Functions 
+Functions of OS
+
      - Multiplex 
      - Isolation 
      - Security 
+
+Security Risks involved in the components of OS 
+     - File system 
+     - Shell 
+
+--------------------------------------------------------------------------------------------------
+     - Kernel (yet to ) 
+     - Systemcall (Yet to) 
 
 BIOS 
 
