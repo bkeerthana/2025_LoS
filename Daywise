@@ -48,11 +48,94 @@ Security Risks involved in the components of OS
      - Shell 
 
 --------------------------------------------------------------------------------------------------
-Next 
-     - Kernel (yet to ) 
-     - Systemcall (Yet to) 
+BIOS  
+BIOS - Basic Input Output System 
+Unified Extensible Firmware Interface, is a modern replacement for the traditional BIOS (Basic Input/Output System) 
 
-BIOS 
+
+Basic Terms
+Software → Code or programs that run on hardware.
+Hardware → Physical components (bolts, nuts, chips, boards).
+Firmware → Software embedded into hardware; controls low-level operations.
+
+BIOS is a firmware 
+      BIOS is responsible for starting the process that eventually loads the OS
+      stored : ROM Chip  (Erasable) 
+      used   : boot order, virtualization, memory , built in port ( disable usb)  ....
+      
+Booting
+The process of loading an OS software from secondary memory i.e.,
+hard disk into primary memory i.e., RAM(Random Access Memory).
+
+Booting Overview
+Boot → Process of starting up a computer.
+Cold Booting → Powering on the system from an off state (hard boot).
+Warm Booting → Restarting the system without turning off power (e.g., Ctrl+Alt+Del, reboot command).
+
+Boot Device
+“A boot device is a storage device that contains the files needed to start the OS — including the bootloader and the kernel.”
+
+Examples:
+HDD/SSD with OS installed
+USB flash drive with live Linux
+Optical disc (CD/DVD)
+Network interface (for PXE boot)
+
+Role in Boot Process:
+BIOS/UEFI checks devices in the boot order to find one that contains valid boot code.
+Once found, the firmware reads the initial boot code from it into memory.
+
+Security relevance:
+Misconfigured boot order could let an attacker plug in a USB and boot a malicious OS (Evil Maid attack).
+
+Bootstrap Loader
+A small program inside the firmware (BIOS/UEFI) whose job is to load the OS bootloader from the boot device into RAM.
+
+Role in Boot Process:
+Identify the boot device (based on boot order).
+In Legacy BIOS mode:
+Read the first 512 bytes of the boot device → Master Boot Record (MBR).
+Execute the code in the MBR, which loads the full OS bootloader (like GRUB).
+
+1. Firmware stage - Pre-Boot Stage
+              - Power On → Power supply stabilizes, CPU fetches firmware instructions.
+              - POST (Power-On Self-Test) → Hardware check and basic initialization.
+              - BIOS reads settings from CMOS 
+                CMOS = the tiny memory chip storing BIOS settings.
+                CMOS battery = keeps that memory (and RTC) alive when the main power is off.
+                                   - Complementary Metal-Oxide Semiconductor 
+                                   - non-volatile memory 
+                                   - it stores bios settings 
+                                   - clock, data time are maintained by this 
+              - BIOS looks for the operating system from the configured boot device
+              - Boot Device Selection → Follows boot order from BIOS/UEFI setup.          
+              - Bootstrap Loader Execution → Firmware loads the first-stage bootloader (MBR in BIOS, .efi file in UEFI) into RAM and runs it.
+              - BIOS executes the bootloader code in the MBR
+
+ 2. Kernel stage
+              -Bootloader Loads Kernel → Copies kernel into RAM.
+               Kernel Initialization:
+               Set up memory management, process scheduler.
+               Load kernel-level drivers (more advanced than BIOS routines).
+               Mount root filesystem (read-only at first).
+               Switch to User Space → Kernel starts the init process (PID 1).
+3. Init stage
+              systemd (or other init) runs as PID 1.
+              Mounts remaining filesystems.
+              Starts essential system services (network, logging, GUI, etc.).
+              Manages service dependencies and targets.
+              Handles shutdown and reboot sequences.
+Explore
+Real-World BIOS Attacks
+1998 – Chernobyl (CIH) → Overwrote BIOS on systems with specific chipsets, making them unbootable.
+2011 – Mebromi → First known BIOS-based rootkit targeting Award BIOS, loaded malicious code before OS.
+
+
+
+      
+
+
+
 
 
 
