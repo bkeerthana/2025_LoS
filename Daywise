@@ -130,6 +130,43 @@ Real-World BIOS Attacks
 1998 – Chernobyl (CIH) → Overwrote BIOS on systems with specific chipsets, making them unbootable.
 2011 – Mebromi → First known BIOS-based rootkit targeting Award BIOS, loaded malicious code before OS.
 
+Day-4: 
+Virtualization
+
+Virtual Machine (VM) → A computer simulated by software.
+Virtual Memory → Part of your storage space used as if it were RAM.
+Virtual Network → A network created in software that behaves like a physical network.
+Virtual Reality → A computer-generated environment you can interact with.
+
+Bare Metal (Traditional Infrastructure)
+No virtualization. Applications run directly on hardware.
+
+Pros: Maximum performance.
+Cons: Poor scalability, inefficient resource utilization.
+
+Virtual Machine:
+Purpose: Run multiple operating systems on the same physical hardware.
+Achieved via: Hypervisors.
+
+Main Functions
+Create and run virtual machines
+Allocate hardware resources (CPU, RAM, storage, network) to each VM
+Isolate VMs so one VM can’t directly affect another
+Control and monitor VM performance
+
+Virtualization vs Containerization
+Virtualization → Provided by hypervisors → Creates VMs (each with a full guest OS).
+
+Containerization → Provided by container engines (e.g., Docker, Podman, containerd) → Creates isolated app environments that share the host OS kernel.
+
+Hypervisors virtualize hardware; container engines virtualize the application environment.
+Hypervisors virtualize hardware, Docker virtualizes the software environment for apps
+
+Explore: 
+Security Perspective of Virtualization and Containerization
+
+
+
 
 
       
