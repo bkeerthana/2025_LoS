@@ -48,7 +48,7 @@ Security Risks involved in the components of OS
      - Shell 
 
 --------------------------------------------------------------------------------------------------
-BIOS  
+Day-3: BIOS  
 BIOS - Basic Input Output System 
 Unified Extensible Firmware Interface, is a modern replacement for the traditional BIOS (Basic Input/Output System) 
 
@@ -164,6 +164,18 @@ Hypervisors virtualize hardware, Docker virtualizes the software environment for
 
 Explore: 
 Security Perspective of Virtualization and Containerization
+
+Day-5: 
+Process 
+Basic Terminology 
+Process Vs Program Vs. Job 
+Process Table
+Process Control Block 
+Context Switching 
+
+
+Next ... 
+Process States 
 
 
 
