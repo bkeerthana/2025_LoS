@@ -178,6 +178,20 @@ process control block
 (Lab)
 globbing 
 
+Day-7: 
+tr 
+ -s
+ -d
+ -c 
+
+pipe 
+
+redirection 
+  > 
+  >> 
+  < 
+
+Day-8: 
 
 
       
