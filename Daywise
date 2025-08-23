@@ -192,6 +192,31 @@ redirection
   < 
 
 Day-8: 
+cut 
+  -d 
+  -f 
+  -c 
+
+sort 
+  -k
+  -m
+  -t 
+
+head 
+tail 
+
+Day-9: 
+usecase : ls -l 
+paste 
+join 
+cat 
+
+Next.... 
+diff
+merge 
+comm 
+cmp 
+
 
 
       
