@@ -211,11 +211,31 @@ paste
 join 
 cat 
 
-Next.... 
+Day-10:
 diff
-merge 
+Output: 
+a  - add 
+d  - delete 
+c  - change 
+
+< - the first file 
+> - the second file 
+------ - seperation 
+
+The first numeric value refers to the line number of the first file 
+The last numeric value refers to the line number of the second file 
+
+Reference: 
+While searching: Use keyword: how to read diff output 
+
+Explore: 
 comm 
 cmp 
+
+
+Next .... 
+merge 
+grep 
 
 
 
