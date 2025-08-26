@@ -233,13 +233,26 @@ comm
 cmp 
 
 
-Next .... 
-merge 
-grep 
+Day-11: 1.5 hours 
+grep  
+  -A# After n lines 
+  -B# before n lines 
+  -C# after and before n lines 
 
+   -c count number of lines
+   -e executes multiple patterns 
+   -f store the pattern in file and search the pattern 
 
+   -i ignore the case 
+   -m# after mth pattern it stops 
+   -n  line number 
 
-      
+    -q quiet 
+    -v inverse
+    -w wont search the sub word
+
+read 
+    to get the value from the user 
 
 
 
