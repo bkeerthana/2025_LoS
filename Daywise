@@ -254,6 +254,24 @@ grep
 read 
     to get the value from the user 
 
+Lab: 
+
+grep in shell script 
+
+read 
+       -p 
+
+File operators 
+      -f
+      -d 
+      -e 
+      -r 
+      -w 
+      -x 
+
+Conditional Statements 
+
+Looping Statements 
 
 
 
