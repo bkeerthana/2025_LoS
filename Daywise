@@ -273,8 +273,23 @@ Conditional Statements
 
 Looping Statements 
 
+Day-12:
+regular expression 
 
+Alternative 
+            | 
 
+Anchor
+           ^
+           $ 
+           \< 
+           \> 
+
+Character Class
+           [ ]
+
+Next ........ 
+More on Regular Expression
 
 
 
