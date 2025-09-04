@@ -302,8 +302,23 @@ Day-13:
 ? - 0 or 1 character (previous character)
 * - 0 or more characters 
 
-Day-14:
-More on Regular Expression
+Lab: 
+( ) - grouping 
+( ) ( ) \1 \1 - backreference 
+
+Arithmetic Operations 
+let 
+expr
+bc 
+$((expression))
+
+Command Line Arguments 
+$1     - to access the first argument
+$2     - to access the second argument
+....
+${10}  - to access the 10th argument
+$#     - find the number of arguments passed 
+
 
 
 
