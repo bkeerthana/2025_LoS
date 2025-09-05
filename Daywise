@@ -320,6 +320,27 @@ ${10}  - to access the 10th argument
 $#     - find the number of arguments passed 
 
 
+Day-13 (2 hours): 
+
+difference between read and command line arguments 
+
+Activity : 
+command line arguments 
+               - using grep 
+               - using filters 
+               - using arithmetic 
+
+Command line arguments 
+               - $* 
+               - $@ 
+
+Looping 
+             for var in range 
+             do 
+                 statement
+             done 
+
+
 
 
 
