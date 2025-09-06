@@ -1,0 +1,14 @@
+Task: To Check status of all services
+command: service -status-all
+
+Task: To List all units installed in the file system
+command: systemctl -a	
+
+Task: To start a service
+command: systemctl start servicename	
+
+Task: To stop a service
+command: systemctl stop servicename
+
+Task: To show the status of a service
+command: systemctl status servicename	Show 

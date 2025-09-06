@@ -1,0 +1,38 @@
+Task: To know distributor deails 
+command: cat /etc/lsb-release
+
+Task: To display Linux system infomation about computers software and hardware
+command : uname -a 
+
+Task: To display kernel release information
+command : uname -r 
+
+Task: To display hostname 
+command : uname -n 
+
+Task: To know how long system has been running
+command: uptime 
+
+Task: To know the system name
+command: hostname
+
+Task: To display IP address of the host 
+command : hostname -i 
+
+Task: To display reboot history 
+command: last reboot
+
+Task: To display who is online 
+command: w
+
+Task: To locate the executable files or location of a program from the file system
+Command: which command
+
+Task: locates the source, binary, and manuals sections for specified files
+command: whereis command
+
+Task: To know who you logged in as 
+command: whoami 
+
+Task: To display hostid 
+command: hostid

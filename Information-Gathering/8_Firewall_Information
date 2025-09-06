@@ -1,0 +1,37 @@
+Task: To install firewalld package
+command: sudo apt update && sudo apt install firwalld 
+
+Task: To check the state of the firewall 
+command: firewall-cmd --state
+         systemctl status firewalld
+
+Task: To start firewall 
+command: systemctl --enable --now firewalld
+         systemctl start firewalld
+
+Task: To disable firewall
+command: systemctl stop firewalld 
+
+Task: To check the status of firewall and all rules
+command: iptables -L -n 
+command: systemctl status firewall.d service
+
+Task: Toc check iptables service is active 
+command: sudo systemctl status iptables
+
+
+Task : to start firewall config 
+command (gui): firewall-config
+command (cli): firwall-cmd --list-all
+
+Task: To display the zones 
+command: sudo firewall-cmd --get-zones
+
+Task: To allow traffic 
+command: sudo firewall-cmd --add-port=80/tcp --permanent
+
+Task: To check all predefined services 
+command: firewall-cmd --get-services
+
+Task: To display all ports and services 
+command: sudo firewall-cmd --list-all

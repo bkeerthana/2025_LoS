@@ -1,0 +1,89 @@
+====================
+CPU Information
+====================
+Task: To Display CPU information
+command: cat /proc/cpuinfo
+
+Task: To check cpu speed 
+command : lscpu
+
+
+=======================
+Memory Information
+=======================
+
+Task: To Display memory information
+command: cat /proc/meminfo
+
+Task: To Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+command: free -h
+
+Task: To list each memory stick
+command: dmidecode -t memory | grep -i size
+
+Task: To specifics on system memory, including type, size, speed, and voltage of each RAM
+command: lshw -short -C memory
+
+Task: To display free memory 
+command: free
+
+================
+Hardware
+================
+Task: To Display PCI devices (Peripheral Component Interconnect network cards, sound cards, modems, extra ports such as Universal Serial Bus (USB) or serial, TV tuner cards and hard disk drive host adapters. )
+command: lspci -tv
+
+Task: To Display USB devices
+command: lsusb -tv
+
+Task: To Display DMI/SMBIOS (hardware info) from the BIOS
+command: dmidecode
+
+Task: To get hardware information 
+command: hwinfo
+
+=======================
+Disk Information 
+=======================
+Task: To display a single line describing each disk device
+command: lshw -short -C disk
+
+Task: To Show info about disk sda
+command: hdparm -i /dev/sda
+
+Task: To Perform a read speed test on disk sda
+command: hdparm -tT /dev/sda
+
+Task   : To list model and serial numbers, supported modes, sector count, and more with:
+command: hdparm -i /dev/sda
+
+Task: To Test for unreadable blocks on disk sda
+command: badblocks -s /dev/sda
+
+Task: To list all disks with all their defined partitions, along with the size of each
+command: lsblk
+
+Task: To list the number of sectors, size, filesystem ID and type, and partition starting and ending sectors
+command: fdisk -l
+
+Task: To identify mountable partitions to the GRUB bootloader
+command: blkid
+
+Task: To display disk space usage
+command : df
+
+
+================
+unsorted
+================
+Task: To show operating system information such as distribution name and version
+command : cat /etc/os-release
+
+Task: To Display messages in kernel ring buffer
+command: dmesg
+
+========================
+File System
+========================
+Task   : To list the mounted filesystems, their mount points, and the space used and available for each (in megabytes)
+command: df -m

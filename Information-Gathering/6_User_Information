@@ -1,0 +1,85 @@
+Task: To check details about the active users
+command: id 
+
+Task: Show the last system logins
+command: last 
+
+Task: To show failed login attempts 
+command: lastb
+
+Task: Display who is currently logged into the system
+command : who 
+
+Task: To Show which users are logged in and their activity
+command: w
+
+Task: To get user details from different text file like 
+/etc/passwd /etc/group/ etc/hosts and so on. 
+Command: getent nameofthefile username
+
+Task: To check user information
+command: finger [user_name]	
+
+Task: Temporarily elevate user privileges to superuser (Super user do) 
+Command: sudo [command]	
+
+Task: To check the privilege of the user in configuration file 
+command visudo
+
+Task: To Switch the user account or become a superuser
+Command: su - [user_name]	
+
+Task: To change the user name and other details
+command: chfn [user_name]
+
+Task: To change the user login shell path
+command: chsh -s [shell path] [username] 
+
+Task: 
+==============
+User creation 
+==============
+
+Task:	To Create a new user account
+command: sudo useradd [user_name] 
+              adduser [user_name]  depends upon the package
+
+Task:To Delete a user account
+Command: sudo userdel [user_name]	
+              deluser [user_name] 
+
+Task: Modify user information or (add a user to a group).     
+Command: sudo usermod -aG [group_name] [user_name]	
+
+Task: To change the current user's password or another user's password with the passwd command.
+Command: sudo passwd [user_name]	
+
+Task: To Add a new group.
+Command: sudo groupadd [group_name]
+
+Task: To Delete a group.
+Command: sudo groupdel [group_name]	
+
+Task: To Modify a user group (change group name).
+Command: sudo groupmod -n [new_name] [old_name]	
+
+Task: To Change file or directory group.
+Command:  chgrp [group_name] [file/directory]	
+
+Task: To change owner of the file 
+command: chown 
+
+Task: To List all user details (from 1000) 
+command: cat /etc/passwd 
+
+Task: To Print group names a user is in
+command: groups 
+
+Task: To Print current login name
+command: logname
+
+=========
+network 
+=========
+ping
+tnc
