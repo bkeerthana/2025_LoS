@@ -341,6 +341,25 @@ Looping
              done 
 
 
+Day-14: 
 
+File operators 
+      -e 
+      -f 
+      -d 
 
+       -r 
+       -w 
+       -x 
+
+Slicing Operations 
+
+${string:offset:length}
+
+text="Scripting is used for automation!"
+echo "${text:0:9}"   # Output: Scripting 
+echo "${text:0}"     # Output: Scripting is used for automation!
+echo "${text: -1}"   # Output: fetch the last character
+echo "${text: -2}"   # Output: fetch last 2 characters 
+echo "${text: -5:1}" # Output: on!
 
