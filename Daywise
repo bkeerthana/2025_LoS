@@ -364,3 +364,24 @@ echo "${text: -1}"   # Output: fetch the last character
 echo "${text: -2}"   # Output: fetch last 2 characters 
 echo "${text: -5:1}" # Output: on!
 
+Day-15: 
+
+File operators 
+     -n 
+     -s 
+
+String operators 
+     == 
+     != 
+
+Revisit Numeric operators 
+     -eq 
+     -ne 
+     -ge
+     -gt
+     -le
+     -lt 
+
+Explore 
+     =~ binding operators 
+
