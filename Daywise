@@ -366,6 +366,15 @@ echo "${text: -5:1}" # Output: on!
 
 Day-15: 
 
+Quotes 
+   ' ' 
+   " " 
+   ` ` 
+   \ 
+
+Filters 
+   tee
+
 File operators 
      -n 
      -s 
