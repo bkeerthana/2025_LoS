@@ -376,7 +376,7 @@ Filters
    tee
 
 File operators 
-     -n 
+     -n  //Check
      -s 
 
 String operators 
@@ -391,6 +391,33 @@ Revisit Numeric operators
      -le
      -lt 
 
-Explore 
+Day-16: 
      =~ binding operator
+     [[ ]] 
 
+     Difference between
+     [ ]  Vs. test Vs. [[ ]] 
+
+     Logical operator
+     && 
+     || 
+
+     case statement in bash
+
+     case variable in 
+     $var) statement;;
+     *) statement;;
+     esac 
+ 
+     Schedule 
+     - job 
+     - time 
+
+     at 
+     at -f 
+     atrm 
+     atq
+
+Next: 
+crontab
+link 
