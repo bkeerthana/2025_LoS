@@ -418,6 +418,25 @@ Day-16:
      atrm 
      atq
 
-Next: 
-crontab
+Day-17:
 link 
+  -soft link 
+  - ln -s path_of_orginal_file path_of_short_cut
+
+  - create a softlink 
+  - access the softlink 
+  - delete the original file and  try to access the softlink 
+
+  - count total number of original file 
+  - count total number of link file 
+
+  -File Operator 
+  -L - to check the file is Symbolic File or not 
+
+  - write a script to check the file is broken or not.
+  Hint : conditional statement ; -L and -e 
+
+
+Next: 
+crontab 
+looping 
