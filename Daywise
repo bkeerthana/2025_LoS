@@ -375,8 +375,8 @@ Quotes
 Filters 
    tee
 
-File operators 
-     -n  //Check
+String operators 
+     -n  // use Quotes when checking 
      -s 
 
 String operators 
