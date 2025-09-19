@@ -441,5 +441,38 @@ Day-18:
 Absolute path Vs. Relative path
 crontab
 
-Next
-looping 
+Day-19 and Day-20:
+looping  in bash 
+hard link 
+    - how to create
+    - -ef operator to check both files are same or not 
+
+Intro to sed 
+     - general syntax 
+     - when to use 
+
+      sed -options command filename 
+      sed -options address command filename 
+      sed -options /pattern/ command filename 
+      sed -options address, address filename 
+      sed -options /pattern/,/pattern/ filename 
+      sed -options address ~ address filename 
+      sed -options !command filename 
+
+sed options 
+      -i 
+      -e 
+
+sed command 
+       p 
+       d
+       y 
+       G
+       g
+       s/from/to/flag 
+                 flag 
+                   - g
+                   - n 
+                   - ng
+                   - i 
+                    
