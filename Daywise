@@ -475,4 +475,31 @@ sed command
                    - n 
                    - ng
                    - i 
+
+
+Day-21:
+
+sed options 
+      -f 
+      -E 
+
+Different ways to execute sed commands 
+     - command line 
+     - using -f 
+     - as executable 
+     - include in bash script 
+
+sed flag "s" 
+             - e
+             - w filename 
+             - p 
+
+sed command 
+             -w 
+             -g
+             -G
+
+sed grouping 
+           { } 
+
                     
