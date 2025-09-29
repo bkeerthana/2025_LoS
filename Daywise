@@ -502,4 +502,8 @@ sed command
 sed grouping 
            { } 
 
-                    
+
+Day-22: 
+trap 
+signal 
+
