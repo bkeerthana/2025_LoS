@@ -507,3 +507,28 @@ Day-22:
 trap 
 signal 
 
+Day-23: 
+Introduction to awk 
+when to use awk 
+grep Vs. sed Vs. awk 
+
+awk syntax: 
+awk -options 'script' filename 
+awk -options 'pattern_block {action block}' filename 
+
+file 
+record 
+fields 
+
+$0 --> whole record 
+$1 --> 1st field 
+S2 --> 2nd field 
+
+BEGIN { } 
+END { } 
+
+awk -options 'BEGIN{ } /pattern block/ {action block} END{ }' filename
+
+Performing an arithmetic operation 
+
+
