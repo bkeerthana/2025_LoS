@@ -531,4 +531,11 @@ awk -options 'BEGIN{ } /pattern block/ {action block} END{ }' filename
 
 Performing an arithmetic operation 
 
+Day-24: 
+awk option -f 
+
+built in variables 
+- NR 
+- NF 
+- FS 
 
