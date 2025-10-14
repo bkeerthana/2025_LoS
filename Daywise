@@ -534,8 +534,22 @@ Performing an arithmetic operation
 Day-24: 
 awk option -f 
 
-built in variables 
+built-in variables 
 - NR 
 - NF 
 - FS 
+
+Day-25: 
+-FNR 
+
+pattern block 
+    - conditional statements 
+    - comparison operators 
+
+FS - Field separator 
+OFS - Output field separator 
+RS  - Record separator 
+ORS - Output record separator 
+
+
 
