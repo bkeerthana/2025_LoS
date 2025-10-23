@@ -551,5 +551,16 @@ OFS - Output field separator
 RS  - Record separator 
 ORS - Output record separator 
 
+Day-26: 
+options 
+   -v  # To pass values 
+   -F  # To specify field sep 
+   -e  # To execute multiple commands 
 
+built-in-variables 
+    RS 
+    ORS 
+
+
+   
 
