@@ -561,6 +561,15 @@ built-in-variables
     RS 
     ORS 
 
+Day-27: 
+    built-in-functions 
+- length()
+- tolower()
+- toupper()
+- sub()
+- gsub() 
+
+
 
    
 
