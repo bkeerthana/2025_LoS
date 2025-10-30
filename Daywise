@@ -569,6 +569,22 @@ Day-27:
 - sub()
 - gsub() 
 
+Day-28: 
+-split()
+-substr()
+if conditional in awk 
+for looping in awk 
+
+Different ways to execute awk script 
+ - command line 
+ - using -f 
+ - write a standalone awk script 
+ - awk as a executable 
+
+Command line arguments 
+ - ARGC   - count number of arguments 
+ - ARGV[0] ARGV[1] - print the values of arguments 
+
 
 
    
