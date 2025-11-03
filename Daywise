@@ -320,7 +320,7 @@ ${10}  - to access the 10th argument
 $#     - find the number of arguments passed 
 
 
-Day-13 (2 hours): 
+Day-14 (2 hours): 
 
 difference between read and command line arguments 
 
@@ -341,7 +341,7 @@ Looping
              done 
 
 
-Day-14: 
+Day-15: 
 Activity : 
        using grep , ls 
 File operators 
@@ -364,7 +364,7 @@ echo "${text: -1}"   # Output: fetch the last character
 echo "${text: -2}"   # Output: fetch last 2 characters 
 echo "${text: -5:1}" # Output: on!
 
-Day-15: 
+Day-16: 
 
 Quotes 
    ' ' 
@@ -391,7 +391,7 @@ Revisit Numeric operators
      -le
      -lt 
 
-Day-16: 
+Day-17: 
      =~ binding operator
      [[ ]] 
 
@@ -418,7 +418,7 @@ Day-16:
      atrm 
      atq
 
-Day-17:
+Day-18:
 link 
   -soft link 
   - ln -s path_of_orginal_file path_of_short_cut
@@ -437,11 +437,11 @@ link
   Hint : conditional statement ; -L and -e 
 
 
-Day-18:
+Day-19:
 Absolute path Vs. Relative path
 crontab
 
-Day-19 and Day-20:
+Day-20 and Day-21:
 looping  in bash 
 hard link 
     - how to create
@@ -477,7 +477,7 @@ sed command
                    - i 
 
 
-Day-21:
+Day-22:
 
 sed options 
       -f 
@@ -503,7 +503,7 @@ sed grouping
            { } 
 
 
-Day-22: 
+Day-23: 
 trap 
 signal 
 
@@ -584,6 +584,23 @@ Different ways to execute awk script
 Command line arguments 
  - ARGC   - count number of arguments 
  - ARGV[0] ARGV[1] - print the values of arguments 
+
+Day-29:
+Introduction to Python 
+Applications of Python in cybersecurity applications 
+        - Information gathering 
+        - Network Scanning 
+        - Port Scanning 
+        - Vulnerability Assessment 
+        - Exploit 
+        - Report generation 
+        - Analysis 
+        - Encrypt and Decrypt the files - Cryptography 
+        - Cracking the key              - Cryptanalysis 
+        - Password storage              - Hashing 
+and so on. 
+
+                
 
 
 
