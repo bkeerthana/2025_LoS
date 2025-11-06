@@ -637,6 +637,15 @@ try:
 except Exception as exc:
     print('There was a problem: %s' % (exc))
 
+
+Next... 
+from scapy.all import *
+myIP="192.168.50.11"
+ip_layer =IP(dst=myIP)
+tcp_layer =TCP(dport=88,flags="S")
+packet =ip_layer/tcp_layer
+packet.show()
+send(packet)
                 
 
 
