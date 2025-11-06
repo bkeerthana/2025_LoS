@@ -601,51 +601,20 @@ Applications of Python in cybersecurity applications
 and so on. 
 
 Day-30: 
+Exploring hashlib 
+        find the name of the algorithm 
+        find the block size 
+        find the digest size 
+        apply differnt hash algorithms 
 
 Day-31: 
 https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/xato-net-10-million-passwords-1000000.txt
-
-
-Usecase: 
-from urllib.request import urlopen
-import hashlib
-from termcolor import colored
-
-# Prompt user for the SHA256 hash value
-sha256hash = input("[+] Enter sha256 Hash value: ")
-
-try:
-    # Fetch a list of common passwords from a URL
-    #https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/xato-net-10-million-passwords-1000000.txt
-
-    password_list = str(urlopen('https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/xato-net-10-million-passwords-1000000.txt').read(), 'utf-8')
-
-    # Iterate through each password in the list
-    for password in password_list.split('\n'):
-        # Calculate SHA256 hash for the current password
-        guess = hashlib.sha256(bytes(password, 'utf-8')).hexdigest()
-
-        # Check if the calculated hash matches the provided hash
-        if guess == sha256hash:
-            print(colored("[+] The password is: " + str(password), 'green'))
-            break
-        else:
-            continue
-    else:
-        print(colored("The password does not match any in the list...", 'red'))
-
-except Exception as exc:
-    print('There was a problem: %s' % (exc))
+Use case 1: Creating Rainbow table 
+Use Case 2: Guess the password 
 
 
 Next... 
-from scapy.all import *
-myIP="192.168.50.11"
-ip_layer =IP(dst=myIP)
-tcp_layer =TCP(dport=88,flags="S")
-packet =ip_layer/tcp_layer
-packet.show()
-send(packet)
+scapy
                 
 
 
