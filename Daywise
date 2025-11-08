@@ -612,6 +612,22 @@ https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Pass
 Use case 1: Creating Rainbow table 
 Use Case 2: Guess the password 
 
+Day-32: 
+# Caesar Cipher (lowercase only)
+plaintext = input("Enter plaintext (lowercase): ")
+key = int(input("Enter shift (0–25): "))
+
+ciphertext = ""
+
+for ch in plaintext:
+    if ch.isalpha():  # only letters
+        # ord('a') = 97 → subtract 97 to get range 0–25
+        ciphertext += chr((ord(ch) - 97 + key) % 26 + 97)
+    else:
+        ciphertext += ch
+
+print("Ciphertext:", ciphertext)
+
 
 Next... 
 scapy
